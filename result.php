@@ -1,0 +1,23 @@
+<?php
+require "controller.php";
+
+
+$book = seeDetails($_GET['id']);
+var_dump($book);
+echo "ok";
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+<p>halo</p>
+</body>
+
+</html>
